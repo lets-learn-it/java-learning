@@ -1,3 +1,14 @@
+# Prototype Design Pattern
+
+- Cloning of an existing object instead of creating new one and can also be customized as per the requirement
+
+## Advantages
+
+- reduces need of subclassing
+- hides complexities of creating objects
+- clients can get new objects without knowing which type of object it will be.
+- lets you add or remove objects at runtime.
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
