@@ -1,3 +1,13 @@
+# Builder Design Pattern
+
+- Construct a complex object from simple objects using step-by-step approach
+
+## Advantages of Builder Design Pattern
+
+- clear separation between construction & representation of an object
+- better control over construction process
+- support to change internal representation of objects.
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
