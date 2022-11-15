@@ -1,3 +1,7 @@
+# Factory Design Pattern
+
+- Create object without exposing the creation logic to the client and refer to newly created object using a common interface.
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
