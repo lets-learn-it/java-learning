@@ -1,18 +1,17 @@
-## Getting Started
+# Adapter Pattern
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- It converts the interface of a class into another interface that clients expect, enabling compatibility.
+- It lets you wrap an otherwise incompatible object in an adaptor to make compatible with another class.
+- Adapter wraps one of the objects to hide the complexity of conversion happening behind the scenes.
+- Wrapped object isn't even aware of the adapter.
+- Adapter provides a completely different interface for accessing an existing object. On the other hand, with the Decorator pattern the interface either stays the same or gets extended.
+- Bridge is usually designed up-front, letting you develop parts of an application independently of each other. On the other hand, Adapter is commonly used with an existing app to make some otherwise-incompatible classes work together nicely.
+- With Adapter you access an existing object via different interface. With Proxy, the interface stays the same. With Decorator you access the object via an enhanced interface.
 
-## Folder Structure
+## Sequence diagram
 
-The workspace contains two folders by default, where:
+![adaptor sequence diagram](./adapter-sequence-diagram.png)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Class diagram
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![class diagram](./adapter-class.png)

@@ -20,14 +20,13 @@ public class Journal {
     return String.join(System.lineSeparator(), entries);
   }
 
-  /* 
-   * Violation of SRP
-   * move this method to Persistence class
+  /*
+   * Violation of SRP move this method to Persistence class
    */
   public void save(String filename) {
     try (PrintStream out = new PrintStream(filename)) {
       out.println(toString());
-    } catch(FileNotFoundException e) {
+    } catch (FileNotFoundException e) {
       e.printStackTrace();
     }
   }

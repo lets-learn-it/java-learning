@@ -1,22 +1,6 @@
 # Factory Design Pattern
 
 - Create object without exposing the creation logic to the client and refer to newly created object using a common interface.
-
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Wholesale object creation (non-piecewise, unlike builder) can be outsourced to
+  - A separate function (Factory method)
+  - That may exist in a separate class (Factory)

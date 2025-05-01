@@ -1,18 +1,7 @@
-## Getting Started
+# Composite design pattern
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- It lets you compose objects into tree structure and then work with these structures as if they were individual objects.
+- Compose objects into tree structures to represent part-while hierarchies. It lets clients treat individual objects and compositions of objects uniformaly.
+- Make sure that core model of app can be represented as a tree structure. Try to break it down into simple elements and containers. Remember that containers must be able to contain both simple elements and other containers.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![class diagram](./composite-class-diagram.png)

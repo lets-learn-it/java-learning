@@ -1,18 +1,14 @@
-## Getting Started
+# Bridge pattern
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- It decouples an abstraction from its implementation so that both can very independently
+- It is about preferring composition to inhertance. Implementation details are pushed from a hierarchy to object with a separate hierarchy.
 
-## Folder Structure
+## Sequence diagram
 
-The workspace contains two folders by default, where:
+![Bridge sequence diagram](./bridge-sequence-diagram.png)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Class diagram
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+![Bridge class diagram](./bridge-class-diagram.png)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![Bridge class diagram](./bridge-class-diagram-2.png)
